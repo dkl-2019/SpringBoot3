@@ -1,7 +1,7 @@
 spring:
   datasource:
     # 连接池类型
-    type: com.alibaba.druid.pool.DruidDataSource
+    type: com.alibaba.druid.pool.DruidDataSource  # 使用druid连接池
 
     # Druid的其他属性配置 springboot3整合情况下,数据库连接信息必须在Druid属性下!
     druid:
