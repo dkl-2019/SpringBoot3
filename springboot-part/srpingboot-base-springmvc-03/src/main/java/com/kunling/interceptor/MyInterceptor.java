@@ -11,4 +11,5 @@ public class MyInterceptor implements HandlerInterceptor {
         System.out.println("request = " + request + " response = " + response + " handler = " + handler);
         return true;
     }
+
 }
